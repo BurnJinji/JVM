@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6a0357a-f382-41b0-8968-db258c40e683" name="Default Changelist" comment="通过简单程序对class文件结构进行分析" />
+    <list default="true" id="f6a0357a-f382-41b0-8968-db258c40e683" name="Default Changelist" comment="通过简单程序对class文件结构进行分析">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T001_ClassLoadingProcedure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T007_BNClassLoaderWithEncription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T008_LazyLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T009_WayToRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored mask="*.class" />
@@ -21,29 +28,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/c1_bytecode/T0105_ByteCode05.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/classes/jvm/c1_bytecode/T0101_ByteCode_With_Interfaces.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#297#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,6 +54,12 @@
         <option value="$PROJECT_DIR$/src/main/java/jvm/c1_bytecode/T0103_ByteCode3.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/c1_bytecode/T0104_ByteCode04.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/c1_bytecode/T0105_ByteCode05.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T001_ClassLoadingProcedure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/Hello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T007_BNClassLoaderWithEncription.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T008_LazyLoading.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T009_WayToRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T010_Parent.java" />
       </list>
     </option>
   </component>
@@ -140,62 +131,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="c0_basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="c1_bytecode" type="462c0819:PsiDirectoryNode" />
+              <item name="c2_classloader" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JVM" type="b2602c69:ProjectViewProjectNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="c0_basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="c1_bytecode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,6 +159,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\mashibing\architech\jvm" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -263,7 +210,7 @@
       <workItem from="1573817736136" duration="2486000" />
       <workItem from="1573825269065" duration="3137000" />
       <workItem from="1573879898919" duration="797000" />
-      <workItem from="1573880712821" duration="1002000" />
+      <workItem from="1573880712821" duration="2979000" />
     </task>
     <task id="LOCAL-00001" summary="通过简单程序对class文件结构进行分析">
       <created>1573881653041</created>
@@ -272,11 +219,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573881653041</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加忽略文件">
+      <created>1573881965084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573881965084</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7422000" />
+    <option name="totallyTimeSpent" value="9399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -319,7 +273,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="通过简单程序对class文件结构进行分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="通过简单程序对class文件结构进行分析" />
+    <MESSAGE value="添加忽略文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加忽略文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target/classes/HelloJVM.class" />
@@ -406,10 +361,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/c1_bytecode/T0105_ByteCode05.java">
+    <entry file="file://$PROJECT_DIR$/target/classes/jvm/c0_basic/T.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state>
+          <folding>
+            <element signature="e#0#240#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -420,6 +377,69 @@
           <folding>
             <element signature="e#0#297#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/c1_bytecode/T0105_ByteCode05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T001_ClassLoadingProcedure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T007_BNClassLoaderWithEncription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T008_LazyLoading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T009_WayToRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/c2_classloader/T010_Parent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
